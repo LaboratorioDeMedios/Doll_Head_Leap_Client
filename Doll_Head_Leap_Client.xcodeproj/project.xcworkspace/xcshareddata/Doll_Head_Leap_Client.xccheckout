@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>29D97EC7-156A-4001-9907-AEBBA5FA1A94</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Doll_Head_Leap_Client</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2117026E-7F8C-4225-92D8-2E23383EEB94</key>
+		<string>https://github.com/ofTheo/ofxLeapMotion</string>
+		<key>7D846E7B-8F37-4D41-9D1F-D8FBEC2843D0</key>
+		<string>https://github.com/LaboratorioDeMedios/Doll_Head_Leap_Client.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Doll_Head_Leap_Client.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2117026E-7F8C-4225-92D8-2E23383EEB94</key>
+		<string>../../../../../addons/ofxLeapMotion</string>
+		<key>7D846E7B-8F37-4D41-9D1F-D8FBEC2843D0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/LaboratorioDeMedios/Doll_Head_Leap_Client.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7D846E7B-8F37-4D41-9D1F-D8FBEC2843D0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7D846E7B-8F37-4D41-9D1F-D8FBEC2843D0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Doll_Head_Leap_Client</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2117026E-7F8C-4225-92D8-2E23383EEB94</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxLeapMotion</string>
+		</dict>
+	</array>
+</dict>
+</plist>
