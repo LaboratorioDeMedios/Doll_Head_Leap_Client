@@ -2,6 +2,7 @@
 
 #include "ofMain.h"
 #include "ofxLeapMotion.h"
+#include "ofxOsc.h"
 
 
 class ofApp : public ofBaseApp{
@@ -32,7 +33,7 @@ public:
 	ofLight l2;
 	ofMaterial m1;
     
-    
+      ofxOscSender sender;
     
     
 };

@@ -16,9 +16,6 @@ void ofApp::setup(){
     
 	glEnable(GL_DEPTH_TEST);
     glEnable(GL_NORMALIZE);
-
-
-
     
 }
 
@@ -39,7 +36,6 @@ void ofApp::update(){
     
      }
     
-    
     leap.markFrameAsOld(); 	//IMPORTANT! - tell ofxLeapMotion that the frame is no longer new.
 }
 
@@ -57,8 +53,6 @@ void ofApp::draw(){
     ofEnableLighting();
 	l1.enable();
 	l2.enable();
-
-    
 
     
     for(int i = 0; i < simpleHands.size(); i++){
@@ -104,8 +98,14 @@ void ofApp::draw(){
         }
     }
     
+    // now i'll send it to the osc server
     
-    
+    ofxOscMessage m;
+    m.setAddress("/head/orientationDir/");
+    m.addIntArg(fingerDir.x);
+    m.addIntArg(fingerDir.y);
+    m.addIntArg(fingerDir.z);
+    sender.sendMessage(m);/head/orientationDir/
     
     cam.end();
 }
