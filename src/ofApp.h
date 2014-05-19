@@ -4,6 +4,9 @@
 #include "ofxLeapMotion.h"
 #include "ofxOsc.h"
 
+#define HOST "localhost"
+#define PORT 12345
+
 
 class ofApp : public ofBaseApp{
     
@@ -25,7 +28,7 @@ public:
     
     ofxLeapMotion leap;
 	vector <ofxLeapMotionSimpleHand> simpleHands;
-
+    
     vector <int> fingersFound;
     
 	ofEasyCam cam;
@@ -33,7 +36,7 @@ public:
 	ofLight l2;
 	ofMaterial m1;
     
-      ofxOscSender sender;
+    ofxOscSender sender;
     
     
 };
